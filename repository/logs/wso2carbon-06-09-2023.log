@@ -1,0 +1,13 @@
+TID: [-1234] [] [2023-06-09 08:36:09,156]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-06-09 08:36:08,955+0300]
+TID: [-1234] [] [2023-06-09 08:36:09,184]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-06-09 08:36:09,108+0300]
+TID: [-1234] [api/am/publisher] [2023-06-09 09:16:16,374] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+TID: [-1234] [api/am/publisher] [2023-06-09 09:16:16,375] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Provided access token is invalid
+TID: [] [] [2023-06-09 09:17:07,505]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [] [] [2023-06-09 09:17:49,456]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2023-06-09 09:17:49,492]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /posts/1.0/, HEALTH CHECK URL = /posts/1.0/
+TID: [] [] [2023-06-09 09:17:52,366]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /posts/1.0/, HEALTH CHECK URL = /posts/1.0/
+TID: [] [] [2023-06-09 09:18:18,683]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} - Error loading properties from a file at from the System defined location: access-log.properties
+TID: [-1234] [api/am/devportal] [2023-06-09 09:19:27,820] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} - Provided access token is invalid
+TID: [] [] [2023-06-09 09:21:48,884]  WARN {org.apache.synapse.transport.passthru.SourceHandler} - I/O error: Received fatal alert: certificate_unknown
+TID: [] [] [2023-06-09 09:21:48,896]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /posts/1.0/, HEALTH CHECK URL = /posts/1.0/
+TID: [] [] [2023-06-09 09:22:17,140]  INFO {org.apache.synapse.mediators.builtin.LogMediator} - STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /posts/1.0/posts/1, HEALTH CHECK URL = /posts/1.0/posts/1

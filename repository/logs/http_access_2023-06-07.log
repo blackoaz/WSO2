@@ -1,0 +1,8 @@
+- 0:0:0:0:0:0:0:1 - - [07/Jun/2023:23:15:07.580 +0300] "OPTIONS /pizzashack/1.0.0/menu HTTP/1.1" - - "https://localhost:9443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37"
+- 0:0:0:0:0:0:0:1  - [07/Jun/2023:23:15:07.580 +0300] "- - " 404 - "-" "-"
+- 0:0:0:0:0:0:0:1 - - [07/Jun/2023:23:15:26.338 +0300] "OPTIONS /pizzashack/1.0.0/menu HTTP/1.1" - - "https://localhost:9443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37"
+- 0:0:0:0:0:0:0:1  - [07/Jun/2023:23:15:26.338 +0300] "- - " 404 - "-" "-"
+- 0:0:0:0:0:0:0:1 - - [07/Jun/2023:23:55:20.391 +0300] "OPTIONS /carwash/1.0/categories/409aa466a9e927d0e07976ab5c4054882a4e9462 HTTP/1.1" - - "https://localhost:9443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37"
+- 0:0:0:0:0:0:0:1  - [07/Jun/2023:23:55:20.391 +0300] "- - " 404 - "-" "-"
+- 0:0:0:0:0:0:0:1  - [07/Jun/2023:23:56:43.226 +0300] "- - " 404 - "-" "-"
+- 0:0:0:0:0:0:0:1 - - [07/Jun/2023:23:56:43.226 +0300] "OPTIONS /carwash/1.0/categories/1 HTTP/1.1" - - "https://localhost:9443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37"

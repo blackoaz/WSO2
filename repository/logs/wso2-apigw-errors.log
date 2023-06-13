@@ -1,0 +1,36 @@
+2023-06-13T11:10:25,078 [-] [Start Level: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN Digester Match [Server/Service/Engine/Host/Valve] failed to set property [maxDays] to []
+2023-06-13T11:11:16,069 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN AuthenticationValveServiceComponent File invalid_tenant_domain_response.html not found. The default content will be used as the error page content.
+2023-06-13T11:11:16,566 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN ApplicationManagementServiceComponent Templates directory not found at D:\APIM_HOME\bin\..\repository\resources\identity\authntemplates
+2023-06-13T11:11:19,972 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN FrameworkServiceComponent Adaptive authentication is disabled.
+2023-06-13T11:12:09,702 [-] [Timer-6]  WARN AppDeployerServiceComponent Waiting for required OSGi services: org.wso2.carbon.application.deployer.synapse.service.SynapseAppDeployerService,org.wso2.carbon.mediation.initializer.services.SynapseEnvironmentService,
+2023-06-13T11:12:09,735 [-] [Timer-7]  WARN StartupFinalizerServiceComponent Waiting for required OSGi services: org.wso2.carbon.application.deployer.service.CappDeploymentService,org.wso2.carbon.server.admin.common.IServerAdmin,org.wso2.carbon.throttling.agent.ThrottlingAgent,
+2023-06-13T11:13:00,601 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN SSLUtilBase The trusted certificate with alias [e-tugracertificationauthority] and DN [CN=E-Tugra Certification Authority, OU=E-Tugra Sertifikasyon Merkezi, O=E-Tuğra EBG Bilişim Teknolojileri ve Hizmetleri A.Ş., L=Ankara, C=TR] is not valid due to [NotAfter: Fri Mar 03 15:09:48 EAT 2023]. Certificates signed by this trusted certificate WILL be accepted
+2023-06-13T11:13:00,602 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN SSLUtilBase The trusted certificate with alias [globalsign-2] and DN [CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2] is not valid due to [NotAfter: Wed Dec 15 11:00:00 EAT 2021]. Certificates signed by this trusted certificate WILL be accepted
+2023-06-13T11:13:00,602 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN SSLUtilBase The trusted certificate with alias [staatdernederlandenevrootca] and DN [CN=Staat der Nederlanden EV Root CA, O=Staat der Nederlanden, C=NL] is not valid due to [NotAfter: Thu Dec 08 14:10:28 EAT 2022]. Certificates signed by this trusted certificate WILL be accepted
+2023-06-13T11:13:00,602 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN SSLUtilBase The trusted certificate with alias [hongkongpostrootca1] and DN [CN=Hongkong Post Root CA 1, O=Hongkong Post, C=HK] is not valid due to [NotAfter: Mon May 15 07:52:29 EAT 2023]. Certificates signed by this trusted certificate WILL be accepted
+2023-06-13T11:13:00,602 [-] [Framework Event Dispatcher: Equinox Container: 780894c7-cb6b-42b3-bf18-5b84da436620]  WARN SSLUtilBase The trusted certificate with alias [cybertrustglobalroot] and DN [CN=Cybertrust Global Root, O="Cybertrust, Inc"] is not valid due to [NotAfter: Wed Dec 15 11:00:00 EAT 2021]. Certificates signed by this trusted certificate WILL be accepted
+2023-06-13T11:13:14,024 [-] [PassThrough HTTPS-Listener I/O dispatcher Listener]  WARN PassThroughHttpMultiSSLListener System may be unstable: HTTPS ListeningIOReactor encountered a checked exception : Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:556) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[?:?]
+	at org.apache.http.impl.nio.reactor.DefaultListeningIOReactor.processSessionRequests(DefaultListeningIOReactor.java:243) ~[httpcore-nio_4.4.16.wso2v1.jar:?]
+	at org.apache.http.impl.nio.reactor.DefaultListeningIOReactor.processEvents(DefaultListeningIOReactor.java:144) ~[httpcore-nio_4.4.16.wso2v1.jar:?]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) ~[httpcore-nio_4.4.16.wso2v1.jar:?]
+	at org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager$1.run(PassThroughListeningIOReactorManager.java:561) ~[synapse-nhttp-transport_4.0.0.wso2v20.jar:?]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+2023-06-13T11:13:23,450 [-] [Thread-51]  WARN JMSListener Polling tasks on destination : tokenRevocation of type topic for listener Siddhi-JMS-Consumer#tokenRevocation have not yet started after 3 seconds ..
+2023-06-13T11:13:23,450 [-] [Thread-55]  WARN JMSListener Polling tasks on destination : asyncWebhooksData of type topic for listener Siddhi-JMS-Consumer#asyncWebhooksData have not yet started after 3 seconds ..
+2023-06-13T11:13:23,452 [-] [Thread-43]  WARN JMSListener Polling tasks on destination : keyManager of type topic for listener Siddhi-JMS-Consumer#keyManager have not yet started after 3 seconds ..
+2023-06-13T11:13:23,452 [-] [Thread-53]  WARN JMSListener Polling tasks on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification have not yet started after 3 seconds ..
+2023-06-13T11:13:23,452 [-] [Thread-54]  WARN JMSListener Polling tasks on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData have not yet started after 3 seconds ..
+2023-06-13T11:13:23,452 [-] [Thread-52]  WARN JMSListener Polling tasks on destination : cacheInvalidation of type topic for listener Siddhi-JMS-Consumer#cacheInvalidation have not yet started after 3 seconds ..
+2023-06-13T11:13:23,452 [-] [Thread-42]  WARN JMSListener Polling tasks on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification have not yet started after 3 seconds ..
+2023-06-13T11:13:23,452 [-] [Thread-50]  WARN JMSListener Polling tasks on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData have not yet started after 3 seconds ..
+2023-06-13T11:13:32,674 [-] [Thread-44]  WARN JMSListener Polling tasks on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification have not yet started after 3 seconds ..
+2023-06-13T11:40:15,031 [-] [HTTPS-Listener I/O dispatcher-5]  WARN SourceHandler I/O error: Received fatal alert: certificate_unknown
+2023-06-13T11:40:15,128 [-] [HTTPS-Listener I/O dispatcher-7]  WARN AccessConfiguration Error loading properties from file: access-log.properties
+2023-06-13T11:40:15,182 [-] [HTTPS-Listener I/O dispatcher-7]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
+2023-06-13T11:40:15,186 [-] [HTTPS-Listener I/O dispatcher-7]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
