@@ -50,8 +50,10 @@ key_password =  "wso2carbon"
 #key_password =  "wso2carbon"
 
 [[apim.gateway.environment]]
-name = "Default"
-type = "hybrid"
+#name = "Default"
+#type = "hybrid"
+name = "Production Environment"
+type = "production"
 provider = "wso2"
 display_in_api_console = true
 description = "This is a hybrid gateway that handles both production and sandbox token traffic."
@@ -258,3 +260,9 @@ password = "${admin.password}"
 enable = true
 allow_refresh_tokens = true
 iat_validity_period = "1h"
+
+[dashboard_config]
+dashboard_url = "https://localhost:9743/dashboard/api/"
+heartbeat_interval = 5
+group_id = "mi_dev"
+node_id = "dev_node_2"
